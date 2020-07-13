@@ -1,0 +1,9 @@
+[Windows]
+
+pip install PyQt5
+pip install pyserial
+
+[Linux]
+
+pip3 install PyQt5
+pip3 install pyserial
