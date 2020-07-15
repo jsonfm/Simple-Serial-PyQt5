@@ -54,6 +54,7 @@ class MiApp(QMainWindow):
 
 	def update_ports(self):
 		self.serial.update_ports()
+		self.ui.portList.clear()
 		self.ui.portList.addItems(self.serial.portList)
 
 	def clear_terminal(self):
